@@ -1,11 +1,13 @@
 $(document).ready(function () {
   var menuButton = document.querySelector(".menu-button");
+  var closeButton = document.querySelector("#recom #books");
   menuButton.addEventListener("click", function () {
     document
       .querySelector(".nav--mobile--hidden")
       .classList.toggle("nav__mobile--visible");
     document.querySelector("body").classList.toggle("body-overflow-hidden");
-  });
+});
+
 
   $('a[href*="#"]')
   .not('[href="#"]')
@@ -59,6 +61,7 @@ $(document).ready(function () {
       }
     });
   });
+
 
   // modal
   let modalButton = $("[data-toggle=modal]");
