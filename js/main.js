@@ -182,47 +182,49 @@ $(document).ready(function () {
     },
   });
 
-  // video
-  $(".video-play-button").on("click", function onYouTubeIframeAPIReady() {
-    player = new YT.Player("main-player", {
-      videoId: "FA1JsSytUQE",
-      events: {
-        onReady: videoPlay,
-      },
-    });
-  });
+  // // video
+  // $(".video-play-button").on("click", window.onYouTubeIframeAPIReady = function() {
+  //   player = new YT.Player("main-player", {
+  //     videoId: "FA1JsSytUQE",
+  //     height: "100%",
+  //     width: "100%",
+  //     events: {
+  //       onReady: videoPlay,
+  //     },
+  //   });
+  // });
 
-  function videoPlay(event) {
-    event.target.playVideo();
-    event.target.setVolume(10);
-  }
+  // function videoPlay(event) {
+  //   event.target.playVideo();
+  //   event.target.setVolume(10);
+  // }
 
-  $(".play-video-1").on("click", function onYouTubeIframeAPIReady() {
-    player = new YT.Player("video-one", {
-      videoId: "hT7zqVtMjTs",
-      events: {
-        onReady: videoPlay,
-      },
-    });
-  });
+  // $(".play-video-1").on("click", function onYouTubeIframeAPIReady() {
+  //   player = new YT.Player("video-one", {
+  //     videoId: "hT7zqVtMjTs",
+  //     events: {
+  //       onReady: videoPlay,
+  //     },
+  //   });
+  // });
 
-  $(".play-video-2").on("click", function onYouTubeIframeAPIReady() {
-    player = new YT.Player("video-two", {
-      videoId: "wWqy4HazMrc",
-      events: {
-        onReady: videoPlay,
-      },
-    });
-  });
+  // $(".play-video-2").on("click", function onYouTubeIframeAPIReady() {
+  //   player = new YT.Player("video-two", {
+  //     videoId: "wWqy4HazMrc",
+  //     events: {
+  //       onReady: videoPlay,
+  //     },
+  //   });
+  // });
 
-  $(".play-video-3").on("click", function onYouTubeIframeAPIReady() {
-    player = new YT.Player("video-three", {
-      videoId: "HUcntb7nQCs",
-      events: {
-        onReady: videoPlay,
-      },
-    });
-  });
+  // $(".play-video-3").on("click", function onYouTubeIframeAPIReady() {
+  //   player = new YT.Player("video-three", {
+  //     videoId: "HUcntb7nQCs",
+  //     events: {
+  //       onReady: videoPlay,
+  //     },
+  //   });
+  // });
 
 
 	// прячем кнопку #back-top

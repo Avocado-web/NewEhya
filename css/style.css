@@ -3101,7 +3101,7 @@ label#email-error {
   .modal__dialog {
     max-width: 100%;
     max-height: 100%;
-    padding: 40px 90px;
+    padding: 40px 40px;
   }
   .thenks__title {
     font-size: 25px;
@@ -3416,12 +3416,9 @@ label#email-error {
     -webkit-transform: translateY(0%);
             transform: translateY(0%);
   }
-  .modal__wrapper {
-    height: calc(104vh - 142px);
-  }
   .modal__dialog {
     min-width: 80%;
-    padding: 33px 50px;
+    padding: 33px 40px;
   }
   .error-404__button {
     width: 148px;
@@ -3457,7 +3454,7 @@ label#email-error {
 @media (max-width: 456px) {
   .modal__dialog {
     min-width: 92%;
-    padding: 11px 45px;
+    padding: 11px 30px;
   }
   .modal__button {
     min-width: 100%;
